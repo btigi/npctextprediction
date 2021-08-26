@@ -4,7 +4,7 @@ A webapi that using machine learning to determine which NPC from the Baldur's Ga
 
 ## Usage
 
-Make a POST request to the api endpoint specifying the text parameter on the query string and model on the query string, e.g.
+Make a GET request to the api endpoint specifying the text parameter on the query string and model on the query string, e.g.
 
 https://npctextpredictionapi.iimods.com/api/PredictBG?text=This%20is%20a%20bad%20situation&modeltype=0
 

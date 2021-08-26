@@ -25,7 +25,7 @@ namespace npctextprediction
         [OpenApiParameter(name: "modelType", In = ParameterLocation.Query, Required = true, Type = typeof(ModelType), Description = "The model type to use")]
         [OpenApiResponseWithBody(statusCode: HttpStatusCode.OK, contentType: "text/plain", bodyType: typeof(string), Description = "The OK response")]
         public static async Task<IActionResult> PredictBG(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)] HttpRequest req,
             ILogger log,
             ExecutionContext context)
         {
