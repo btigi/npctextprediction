@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/p4gqxsi0gk7sxo4x?svg=true)](https://ci.appveyor.com/project/igi/npctextprediction)
+
+---
+
 # npctextprediction
 
 A webapi that using machine learning to determine which NPC from the Baldur's Gate series of games would be most likely to say a given sentence.
